@@ -1,0 +1,44 @@
+body{
+    background-color: aliceblue;
+    padding: 20px;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+   
+  }
+  
+  .navlist {
+    display: flex;
+    margin-right: 1rem;
+  }
+  
+  @media (max-width: 28.75em) {
+    .navbar {
+      justify-content: center;
+    }
+  
+    .navlist {
+      margin: 0 1rem;
+    }
+  }
+  
+  .navlist a {
+    display: block;
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  .welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
